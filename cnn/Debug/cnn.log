@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/4/21 9:22:07。
+     1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\cnn\cnn.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\boost.1.63.0.0\build\native\..\..\lib\native\include\\" /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_OPENCV /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\cnn.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\boost.1.63.0.0\build\native\..\..\lib\native\include\\" /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_OPENCV /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\cnn.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Activator.cpp cnn.cpp commom.cpp ConvLayer.cpp Filter.cpp
+         ConvLayer.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(77): error C2065: “length”: 未声明的标识符
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(96): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(99): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(137): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(151): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         Filter.cpp
+         commom.cpp
+         cnn.cpp
+         Activator.cpp
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\cnn\cnn.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.66
