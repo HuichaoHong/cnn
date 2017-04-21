@@ -37,7 +37,7 @@ public:
 	void forward(array3 input_array);
 	void bp_sensitivity_map(array3 sneditivity_array,Activator activate);
 	array3 expand_sensitivity_map(array3 sensitivity_array);
-	array3 create_delta_array(){
+	inline array3 create_delta_array(){
 		return zero(\
 			this->input_array, this->input_width, \
 			this->input_height, this->channel_number);
