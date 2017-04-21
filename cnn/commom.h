@@ -13,4 +13,5 @@ array3 conv(array3 input_array, array3 kernel_array, \
 	array3& output_array, int stride, double);
 double conv_kernel(array3 input_array, array3 kernel_array, \
 	int ref_x, int ref_y, double bias);
-int calculate_output_size(int input_size, int filter_size, int zero_padding, int stride);
+ int calculate_output_size(int input_size, int filter_size, int zero_padding, int stride);
+array3 matrix_rot180(array3 input_array);

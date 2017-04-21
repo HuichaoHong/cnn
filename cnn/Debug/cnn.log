@@ -1,29 +1,51 @@
-﻿生成启动时间为 2017/4/21 9:22:07。
-     1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\cnn\cnn.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2017/4/21 15:32:11。
+     1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\cnn\cnn.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\boost.1.63.0.0\build\native\..\..\lib\native\include\\" /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_OPENCV /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\cnn.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\boost.1.63.0.0\build\native\..\..\lib\native\include\\" /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_OPENCV /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\cnn.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Activator.cpp cnn.cpp commom.cpp ConvLayer.cpp Filter.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\boost.1.63.0.0\build\native\..\..\lib\native\include\\" /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_OPENCV /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\cnn.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Activator.cpp cnn.cpp commom.cpp ConvLayer.cpp Filter.cpp MaxPoolingLayer.cpp
+         MaxPoolingLayer.cpp
+         Filter.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(18): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(21): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(35): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(38): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(58): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(62): warning C4018: “<”: 有符号/无符号不匹配
          ConvLayer.cpp
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(72): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(77): error C2065: “length”: 未声明的标识符
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(96): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(99): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(101): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(137): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(151): warning C4018: “<”: 有符号/无符号不匹配
-         正在生成代码...
-         正在跳过...(未检测到相关更改)
-         Filter.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(161): warning C4018: “<”: 有符号/无符号不匹配
          commom.cpp
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\commom.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\commom.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\commom.cpp(40): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\commom.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\commom.cpp(46): warning C4018: “<”: 有符号/无符号不匹配
          cnn.cpp
          Activator.cpp
-     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\cnn\cnn.vcxproj”(Build 个目标)的操作 - 失败。
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\Debug\cnn.exe" /INCREMENTAL /NOLOGO "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_videostab2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_video2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_ts2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_superres2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_stitching2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_photo2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_ocl2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_objdetect2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_nonfree2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_ml2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_legacy2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_imgproc2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_highgui2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_gpu2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_flann2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_features2d2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_core2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_contrib2411d.lib" "C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/lib/Win32/v120/Debug/opencv_calib3d2411d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\Debug\cnn.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\Debug\cnn.lib" /MACHINE:X86 Debug\Activator.obj
+         Debug\cnn.obj
+         Debug\commom.obj
+         Debug\ConvLayer.obj
+         Debug\Filter.obj
+         Debug\MaxPoolingLayer.obj
+         Debug\stdafx.obj
+         cnn.vcxproj -> C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\Debug\cnn.exe
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\cnn\cnn.vcxproj”(Rebuild 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:03.66
+已用时间 00:00:06.66
