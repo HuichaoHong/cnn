@@ -45,7 +45,7 @@ public:
 	array3 matrix_rot180(array3 input_array);
 	void bp_gradient(array3 sensitivity_array);
 	void update();
-
+	array3 index_3d_depth(array3 input_array, int depth_num);
 };
    
 

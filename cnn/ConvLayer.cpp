@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "ConvLayer.h"
-
 ConvLayer::ConvLayer()
 {
 }
@@ -22,11 +21,14 @@ ConvLayer::ConvLayer(int input_width, int input_height, \
 	this->zero_padding = zero_padding;
 	this->stride = stride;
 	this->activator = activator;
-	this->output_height = calculate_output_size(input_height, filter_height, zero_padding, stride);
-	this->output_width = calculate_output_size(input_width,filter_width,zero_padding,stride);
+	this->output_height = calculate_output_size\
+		(input_height, filter_height, zero_padding, stride);
+	this->output_width = calculate_output_size\
+		(input_width,filter_width,zero_padding,stride);
 
 
-	//初始化input_array大小：input_width*input_height*channnelnumber
+	//初始化input_array大小：\
+	input_width*input_height*channnelnumber
 	input_array.resize(channel_number);
 	for (size_t i = 0; i < input_height; i++)
 	{
@@ -48,20 +50,22 @@ ConvLayer::ConvLayer(int input_width, int input_height, \
 
 
 }
-
 void ConvLayer::forward(array3 input_array) { //this function test is pass
 	this->input_array = input_array;
 	this->padded_input_array = padding(input_array,this->zero_padding);//test is ok
 	for (size_t f = 0; f < this->filter_number; f++)
 	{
-		conv(this->padded_input_array,Filters[f].get_weights(),this->output_array,this->stride,Filters[f].get_bias());
+		conv(this->padded_input_array,Filters[f].get_weights(),\
+			this->output_array,this->stride,Filters[f].get_bias());
 	}
 
 ////this function test is pass
 }
-void ConvLayer::bp_sensitivity_map(array3 sneditivity_array, Activator activate){
+void ConvLayer::bp_sensitivity_map\
+(array3 sneditivity_array, Activator activate){
 	//处理卷积步长，对原始sensitivity进行扩张
-	array3 expand_sensitivity_array = expand_sensitivity_map(sneditivity_array);
+	array3 expand_sensitivity_array =\
+		expand_sensitivity_map(sneditivity_array);
 	//full卷积，对sensitivitymap进行zeropadding
 	int expand_width=expand_sensitivity_array[0][0].size();//扩张完的expand_sensitivity_map的宽度
 	int zp = (this->input_width + this->filter_width - 1 - expand_width) / 2;
@@ -93,8 +97,8 @@ void ConvLayer::bp_sensitivity_map(array3 sneditivity_array, Activator activate)
 	}
 
 }
-
-array3 ConvLayer::expand_sensitivity_map(array3 sensitivity_array){
+array3 ConvLayer::expand_sensitivity_map\
+(array3 sensitivity_array){
 	int depth = sensitivity_array.size();
 	//确定扩展后sensitivity map的大小
  //计算stride为1时，sensitivity map的大小
@@ -153,17 +157,31 @@ void ConvLayer::bp_gradient(array3 sensitivity_array){
 		//}
 	}
 
-
-
-
 }
-void ConvLayer::update(){
+void ConvLayer::update(){//this function test is pass
 	for (size_t i = 0; i < this->filter_number; i++)
 	{
 		this->Filters[i].update(this->learning_rate);
 
 	}
 }
+array3 ConvLayer::index_3d_depth\
+(array3 input_array, int depth_num){//提取三维数组，第depth个深度的二维矩阵
+	if (depth_num>input_array.size())
+	{
+		cout << "深度索引超过输入数组的最大深度" << endl;
+		return input_array;
+	}
+	array3 output_array;
+	output_array=::zero(output_array,\
+		input_array[0][0].size(),input_array[0].size(),1);
+	for (size_t i = 0; i < output_array[0].size(); i++)
+	{
+		for (size_t j = 0; j < output_array[0].size(); j++)
+		{
+			output_array[0][i][j] = input_array[depth_num][i][j];
+		}
+	}
+	return output_array;
 
-
-
+}

@@ -1,4 +1,4 @@
-﻿生成启动时间为 2017/4/21 15:32:11。
+﻿生成启动时间为 2017/4/21 18:27:36。
      1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\cnn\cnn.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\boost.1.63.0.0\build\native\..\..\lib\native\include\\" /I"C:\Users\Administrator\documents\visual studio 2013\Projects\cnn\packages\OpenCV.2.4.11\build\native\../../build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D HAS_OPENCV /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\cnn.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
@@ -16,16 +16,18 @@
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(60): warning C4018: “<”: 有符号/无符号不匹配
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\filter.cpp(62): warning C4018: “<”: 有符号/无符号不匹配
          ConvLayer.cpp
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(34): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(44): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(55): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
-     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(161): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(31): warning C4010: 单行注释包含行继续符
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(46): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(56): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(77): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(111): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(114): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(116): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(151): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(162): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\convlayer.cpp(170): warning C4018: “>”: 有符号/无符号不匹配
          commom.cpp
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\commom.cpp(25): warning C4018: “<”: 有符号/无符号不匹配
      1>c:\users\administrator\documents\visual studio 2013\projects\cnn\cnn\commom.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
@@ -48,4 +50,4 @@
 
 生成成功。
 
-已用时间 00:00:06.66
+已用时间 00:00:18.11
