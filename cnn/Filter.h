@@ -24,6 +24,5 @@ public:
 	void update(double learing_rate);
 	Filter(int width,int height,int depth);
 
-
 };
 
